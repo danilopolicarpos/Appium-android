@@ -89,3 +89,10 @@ app = '/Users/[SEU USUARIO]/dev/android/app/build/outputs/apk/nome.apk'
   <--format html --out reports.html>
   ```
   exemplo: cucumber feature/<nomefeature> --format html --out reports.html
+
+## Respostas
+
+Respondendo então pergunta do tópico. "Até o momento a execução dos testes
+com o calabash android é bem mais rápida do que o appium android".Se ficou 
+curioso é só olhar o "reports" nos repositorios e verificar o time.
+
