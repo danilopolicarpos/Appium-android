@@ -33,8 +33,9 @@ android:
   - platform-tools
   - build-tools-26.0.1
   - android-24
-  - extra-android-m2repository
-  - extra-google-m2repository
+  - extra-android-m2repository  # for design library
+  - extra-google-m2repository   
+  - addon-google_apis-google-24 # google play services
   - sys-img-armeabi-v7a-android-24
 
 install:
@@ -52,6 +53,7 @@ before_script:
   - adb shell input keyevent 82 &
 
 deploy:
+  provider: releases
   file: "/Users/Danilo.Policarpo/dev/appium1/build/app-debug.apk"
   skip_cleanup: true
    
