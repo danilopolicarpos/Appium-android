@@ -1,4 +1,4 @@
 [caps]
 platformName = "Android"
 deviceName = 'test'
-app = "/Users/Danilo.Policarpo/dev/appium1/app-debug.apk"
+app = "/Users/Danilo.Policarpo/dev/appium1/build/app-debug.apk"
