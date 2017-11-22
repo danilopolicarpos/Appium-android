@@ -51,6 +51,7 @@ before_script:
   - adb shell input keyevent 82 &
    
 script: 
+  - bundle install
   - bundle exec rake
   - rake android
 
