@@ -38,6 +38,7 @@ android:
   - sys-img-armeabi-v7a-android-24
 
 install:
+  - bundle install
   - bundle install --deployment
   
 before_script:
@@ -51,7 +52,6 @@ before_script:
   - adb shell input keyevent 82 &
    
 script: 
-  - bundle install
   - bundle exec rake
   - rake android
 
