@@ -1,0 +1,62 @@
+language: ruby
+sudo: required
+rvm:
+  - 2.3
+
+language: node_js
+node_js:
+  - "v8.7.0"
+ 
+language: android
+jdk: oraclejdk8
+env:
+  global:
+    - ANDROID_TARGET=android-24
+    - ANDROID_ABI=armeabi-v7a
+    - ANDROID_TAG=google_apis
+
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  bundler: true
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+    - $HOME/.android/build-cache
+    - node_modules
+    - /home/travis/.rvm/ 
+
+android:
+  components:
+  - tools
+  - platform-tools
+  - build-tools-26.0.1
+  - android-24
+  - extra-android-m2repository
+  - extra-google-m2repository
+  - sys-img-armeabi-v7a-android-24
+
+install:
+  - bundle install --deployment
+  
+before_script:
+  - nvm install 8
+  - npm install -g appium
+
+  
+  - echo no | android create avd --force -n test --target "android-24" --path "system-images;android-24"  --abi armeabi-v7a 
+  - emulator -avd test  -no-window &
+  - android-wait-for-emulator
+  - adb shell input keyevent 82 &
+   
+script: 
+  - bundle exec rake
+  - rake android
+
+after_success:
+  - bash echo "ufa!!!!!"
+
+
+
+

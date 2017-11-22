@@ -1,4 +1,4 @@
 [caps]
 platformName = "Android"
-deviceName = 'Nexus_5_API_24'
+deviceName = 'test'
 app = "/Users/Danilo.Policarpo/dev/appium1/app-debug.apk"
