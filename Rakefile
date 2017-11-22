@@ -10,7 +10,7 @@ end
 
 desc 'Run test in Android'
 task :android do
-  sh "bundle exec cucumber -p android"
+  sh "bundle exec cucumber"
 end
 
 desc 'Run test in iOS'
