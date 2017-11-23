@@ -43,6 +43,7 @@ install:
   - bundle install --deployment
   
 before_script:
+  - nvm install 8
   - npm install -g appium
 
   
