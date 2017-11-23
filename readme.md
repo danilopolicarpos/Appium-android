@@ -1,4 +1,4 @@
-# Appium android x  Calabash-android
+# Appium android x  Calabash-android    [![Build Status](https://travis-ci.org/danilopolicarpos/Appium-android.svg?branch=master)](https://travis-ci.org/danilopolicarpos/Appium-android)
 
 ## Quem tem a melhor Performance em Execução ?
 
@@ -96,4 +96,3 @@ Respondendo então pergunta do tópico. "Até o momento a execução dos testes
 com o calabash android é bem mais rápida do que o appium android".Se ficou 
 curioso é só olhar o "reports" nos repositorios e verificar o time.
 
-[![Build Status](https://travis-ci.org/danilopolicarpos/Appium-android.svg?branch=master)](https://travis-ci.org/danilopolicarpos/Appium-android)
