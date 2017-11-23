@@ -54,7 +54,7 @@ before_script:
 
 deploy:
   provider: releases
-  file: "/Users/Danilo.Policarpo/dev/appium1/build/app-debug.apk"
+  file:"/home/travis/build/danilopolicarpos/Appium-android/build/app-debug.apk"
   skip_cleanup: true
    
 script: 
