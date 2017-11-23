@@ -1,4 +1,4 @@
-# Appium android x  Calabash-android    [![Build Status](https://travis-ci.org/danilopolicarpos/Appium-android.svg?branch=master)](https://travis-ci.org/danilopolicarpos/Appium-android)
+# Appium android x  Calabash-android                                [![Build Status](https://travis-ci.org/danilopolicarpos/Appium-android.svg?branch=master)](https://travis-ci.org/danilopolicarpos/Appium-android)
 
 ## Quem tem a melhor Performance em Execução ?
 
