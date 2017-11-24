@@ -4,17 +4,17 @@ Dado('que estou na lista de filmes') do
 end
 
 Quando('realizar uma busca por titulo') do
- @lista.realizar_busca
+  @lista.realizar_busca
 end
 
 Então('vejo o resultado da busca') do
- @lista.resultado_busca_titulo
+  @lista.resultado_busca_titulo
 end
 
-Quando("favoritar o filme desejado") do
- @lista.tocar_favorito
+Quando('favoritar o filme desejado') do
+  @lista.tocar_favorito
 end
 
-Então("vejo o filme favoritado na aba favoritos") do
- @lista.verificar_favoritos 
+Então('vejo o filme favoritado na aba favoritos') do
+  @lista.verificar_favoritos
 end

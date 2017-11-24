@@ -12,7 +12,7 @@ class Lista_filmeScreen
   end
 
   def realizar_busca
-    find_element(id: @titulo).send_key'Batman Forever'
+    find_element(id: @titulo).send_key 'Batman Forever'
     find_element(id: @busca).click
   end
 
@@ -25,8 +25,7 @@ class Lista_filmeScreen
   end
 
   def verificar_favoritos
-    find_elements(class: 'android.widget.TextView').text("FAVORITOS").click
-    find_elements(class: 'android.widget.LinearLayout').text("Batman Forever").displayed?
-  end 
-
+    find_elements(class: 'android.widget.TextView').text('FAVORITOS').click
+    find_elements(class: 'android.widget.LinearLayout').text('Batman Forever').displayed?
+  end
 end
