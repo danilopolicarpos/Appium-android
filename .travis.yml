@@ -56,7 +56,7 @@ before_script:
    
 script: 
   - bundle exec rake
-
+  - rake android
 
 after_success:
   - bash echo "ufa!!!!!"
