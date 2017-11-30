@@ -2,3 +2,4 @@
 platformName = "Android"
 deviceName = 'test'
 app = "/Users/Danilo.Policarpo/dev/appium1/build/app-debug.apk"
+
