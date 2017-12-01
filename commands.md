@@ -48,17 +48,10 @@
 
  - find_element(:accessibility_id, "SomeAccessibilityID").send_keys("Hello World!")
 
- 
+ - Appium::TouchAction.new.tap( x: 539, y:1700, count: 1).release.perform = tocar no elemento por posição com duração default 1000
 
+ - Appium::TouchAction.new.long_press( x: 768, y:456, count: 1, duration: 2000).release.perform = tocar no elemento por posição passando duração 
 
-Appium::TouchAction.new.tap( x: 539, y:1700, count: 1).release.perform
+- teste = find_element(id: 'search')
+Appium::TouchAction.new.long_press(element: teste, duration: 2000).release.perform = tocar por elemento
 
-Appium::TouchAction.new.long_press( x: 768, y:456, count: 1, duration: 2000).release.perform
-
-
-
-
-
-$driver.find_element :xpath, '//text[@text="Sign In"]'
-
-execute_script('mobile: scroll', direction: 'down')
