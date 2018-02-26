@@ -32,6 +32,8 @@
 
  - scroll_to("Batman & Robin")
 
+ - scroll_to("direction:'up'")
+
  - driver.press_keycode(4)
 
  - driver.navigate
@@ -55,3 +57,4 @@
 - teste = find_element(id: 'search')
 Appium::TouchAction.new.long_press(element: teste, duration: 2000).release.perform = tocar por elemento
 
+http://www.seleniumhq.org/docs/03_webdriver.jsp
