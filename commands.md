@@ -57,4 +57,18 @@
 - teste = find_element(id: 'search')
 Appium::TouchAction.new.long_press(element: teste, duration: 2000).release.perform = tocar por elemento
 
+- def scroll_pra_baixo vezes = 1
+swipe(start_y:600, offset_y:200, duration:1000)
+end
+2.times do
+scroll_pra_baixo
+end
+= Método de scroll para ios
+
+- value = ""; 8.times{value  << (65 + rand(25)).chr}
+value << "@gmail.com"
+wait{find_element(id: "showInvisible").send_keys(value)}
+find_element(id: "showInvisible").click
+= Método para a criação de emails aleatórios
+
 http://www.seleniumhq.org/docs/03_webdriver.jsp
