@@ -1,6 +1,6 @@
 # Appium android x  Calabash-android                                
 
-[![Build Status](https://travis-ci.org/danilopolicarpos/Appium-android.svg?branch=master)](https://travis-ci.org/danilopolicarpos/Appium-android)             [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/danilopolicarpos/Appium-android)
+[![Build Status](https://travis-ci.org/danilopolicarpos/Appium-android.svg?branch=master)](https://travis-ci.org/danilopolicarpos/Appium-android)             [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/danilopolicarpos/Appium-android)   [![Dependency Status](https://beta.gemnasium.com/badges/github.com/danilopolicarpos/Appium-android.svg)](https://beta.gemnasium.com/projects/github.com/danilopolicarpos/Appium-android)
 
 
 
