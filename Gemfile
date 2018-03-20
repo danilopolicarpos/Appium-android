@@ -2,9 +2,10 @@
 
 source 'https://rubygems.org'
 
-gem 'appium_lib'
 gem 'appium_console'
+gem 'appium_lib'
 gem 'cucumber'
 gem 'pry'
-gem 'rspec'
 gem 'rake'
+gem 'rspec'
+

@@ -10,12 +10,12 @@ end
 
 desc 'Run test in Android'
 task :android do
-  sh "bundle exec cucumber"
+  sh 'bundle exec cucumber'
 end
 
 desc 'Run test in iOS'
 task :ios do
-  sh "cucumber -p ios"
+  sh 'cucumber -p ios'
 end
 
 desc 'Close server Appium'
